@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    height: 8.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(112, 217, 221);
+    color: rgb(255, 255, 255);
+}
+
+.photo{
+    position: relative;
+}
+
+.txt{
+    position: absolute;
+    transform: translate(26vmin, -110vmin);
+}
+body img{
+    width: 100%;
+    background-color: aquamarine;
+}
